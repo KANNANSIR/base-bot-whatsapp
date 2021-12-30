@@ -230,7 +230,7 @@ return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`
 
    
    /*
-BY FRM untuk @⁨Ivanzz`⁩ @⁨FERDIz-AFK⁩ 
+BY FRM untuk @⁨Ivanzz`⁩ @⁨FERDIZ-AFK⁩ 
 */
 
 		const ratee = ["106","106","106","106","106","106","106"]
@@ -391,7 +391,7 @@ BY FRM untuk @⁨Ivanzz`⁩ @⁨FERDIz-AFK⁩
       key: {
         fromMe: false,
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {}),
+        ...(from ? { remoteJid: "919633687665@s.whatsapp.net" } : {}),
       },
       message: {
         productMessage: {
@@ -429,9 +429,9 @@ BY FRM untuk @⁨Ivanzz`⁩ @⁨FERDIz-AFK⁩
 
 
 const fvideo  = (teks) => {
-            fdz.sendMessage(from, teks, text, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { 
+            fdz.sendMessage(from, teks, text, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "919633687665-1613049930@g.us" } : {})},message: { 
                  "videoMessage": { 
-                 "title":"ONE DEV",
+                 "title":"© KRIZSER",
                  "h": `Hmm`,
                  'seconds': '99999', 
                  'caption': `${hahh} ${pushname}`,
@@ -803,7 +803,7 @@ DATA BERHASIL DIDAPATKAN\n\n
                     img = get_args[15]
                     reply('waitt')
                     try{
-                    bikin = (`https://ferdiz-afk.my.id/api/maker/ktp?nik=${nik}&nama=${name}&ttl=${ttl}&jk=${jk}&gdarah=-&almt=${jl}&rt-rw=${rtrw}&kel=${lurah}&kcmtn=${camat}&agma=${agama}&status=${nikah}&kerja=${kerja}&negara=${warga}&berlaku=${until}&prov=${prov}&kab=${kabu}&picurl=${img}`)
+                    bikin = (`https://FERDIZ-AFK.my.id/api/maker/ktp?nik=${nik}&nama=${name}&ttl=${ttl}&jk=${jk}&gdarah=-&almt=${jl}&rt-rw=${rtrw}&kel=${lurah}&kcmtn=${camat}&agma=${agama}&status=${nikah}&kerja=${kerja}&negara=${warga}&berlaku=${until}&prov=${prov}&kab=${kabu}&picurl=${img}`)
                     console.log(bikin)
                     imge = await getBuffer(bikin)
                     await fdz.sendMessage(from, imge, image, { quoted: mek });
